@@ -129,71 +129,14 @@
   opacity: 0.6;
 }
 
-.social-item-vk {
-  background-image: url('/img/vk.png');
+.social-item-link-vk:hover {
   width: 30px; 
   height: 16px;
+  fill: darkgreen;
 }
 
-.social-item-insta {
-  background-image: url('/img/insta.png');
-  width: 23px; 
-  height: 23px;
-}
-
-.social-item-fb {
-  background-image: url('/img/fb.png');
-  width: 14px; 
-  height: 28px;
-}
-
-.social-item-vk:hover {
-  background-image: url('/img/vk-green.png');
+.social-item-link-insta:hover {
   width: 30px; 
   height: 16px;
+  fill: darkgreen;
 }
-
-.social-item-insta:hover {
-  background-image: url('/img/insta-green.png');
-  width: 23px; 
-  height: 23px;
-}
-
-.social-item-fb:hover {
-  background-image: url('/img/facebook-green.png');
-  width: 14px; 
-  height: 28px;
-}
-
-.social-item-vk:active {
-  opacity: 0.3;
-}
-
-.social-item-insta:active {
-  opacity: 0.3;
-}
-
-.social-item-fb:active {
-  opacity: 0.3;
-}
-
-
-// .social-item {
-//   position: relative;
-//   opacity: 1;
-// }
-
-// .social-item__img--hover {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   opacity: 0;
-// }
-
-// .social-item:hover .social-item__img {
-//   opacity: 0;
-// }
-
-// .social-item__img--hover:hover {
-//   opacity: 1;
-// }
