@@ -129,14 +129,22 @@
   opacity: 0.6;
 }
 
-.social-item-link-vk:hover {
-  width: 30px; 
-  height: 16px;
+.social-item-link-insta:hover #insta{
+  fill: green;
+}
+
+.social-item-link-vk:hover #vk{
   fill: darkgreen;
 }
 
-.social-item-link-insta:hover {
-  width: 30px; 
-  height: 16px;
-  fill: darkgreen;
+.social-item-link-vk:active #vk{
+  opacity: 0.5;
 }
+
+.social-item-link-fb:hover #facebook {
+  fill: green;
+} 
+
+.social-item-link-fb:active #facebook {
+  opacity: 0.5;
+} 
