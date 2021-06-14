@@ -72,6 +72,14 @@
     padding: 0;
   }
 
+  .list-item__link:hover {
+    opacity: 0.6;
+  }
+  
+  .list-item__link:active {
+    opacity: 0.3;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -102,6 +110,14 @@
     text-transform: uppercase;
     list-style-type: none;
   }
+
+  .list-item__link:hover {
+    opacity: 0.6;
+  }
+  
+  .list-item__link:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -117,6 +133,22 @@
 
   .header-container {
     padding-top: 70px;
+  }
+
+  .list-item__link:hover {
+    opacity: 1;
+  }
+
+  .list-item__link:active {
+    opacity: 1;
+  }
+
+  .logo-link:hover {
+    opacity: 0.8; 
+  }
+
+  .logo-link:active {
+    opacity: 0.6; 
   }
 }
 
@@ -137,3 +169,4 @@
 .list-item__link {
   color: #000;
 }
+
