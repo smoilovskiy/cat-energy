@@ -133,6 +133,11 @@
     color: #FFF;
   }
 
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+
   .nav-list {
     margin: 0;
     padding-right: 110px;
@@ -143,7 +148,7 @@
   }
 
   .header-container {
-    padding-top: 70px;
+    padding-top: 55px;
   }
 
   .list-item__link:hover {
