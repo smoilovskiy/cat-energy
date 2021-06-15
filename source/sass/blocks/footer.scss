@@ -99,10 +99,8 @@
   height: 24px;
 }
 
-.html-academy-img {
-  width: 27px;
-  height: 34px;
-  margin-left: 23px;
+.html-academy-text {
+  margin-right: 23px;
 }
 
 .social {
@@ -148,5 +146,13 @@
 } 
 
 .social-item-link-fb:active #fb {
+  opacity: 0.3;
+}
+
+.html-logo-link:hover #html-logo {
+  fill: #68b738;
+} 
+
+.html-logo-link:active #html-logo {
   opacity: 0.3;
 }
