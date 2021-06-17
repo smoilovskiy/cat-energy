@@ -1,14 +1,21 @@
 @media (min-width: 1440px) {
-  .desktop-index-background {
+  body {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+
+   }
+
+  .background-container {
     position: absolute;
-    content: '';
-    background-image: url('../img/index-background-desktop.jpg');
     width: 720px;
     height: 696px;
-    top: 0px;
+    top: 0;
     left: 720px;
+    background-image: url('../img/index-background-desktop.jpg');
+    background-repeat: no-repeat;
     z-index: -1;
-  }
+   }
 
   .main-container {
     height: 696px;
