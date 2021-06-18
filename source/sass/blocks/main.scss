@@ -3,7 +3,6 @@
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
-
    }
 
   .background-container {
@@ -11,14 +10,57 @@
     width: 720px;
     height: 696px;
     top: 0;
-    left: 720px;
+    right: 0;
     background-image: url('../img/index-background-desktop.jpg');
     background-repeat: no-repeat;
     z-index: -1;
    }
 
+  // .main {
+  //   margin-top: 0;
+  // } 
+
   .main-container {
     height: 696px;
   }
+
+  .first-screen {
+    position: relative;
+  }
+
+  .first-screen-img-container {
+    position: absolute;
+    top: 25px;
+    left: 562px;
+  }
+
+  .title-big {
+    margin: 0;
+    padding: 105px 0 0 192px;
+    line-height: 60px;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  .slogan {
+    margin: 0;
+    padding: 35px 0 60px 192px;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .choose-a-program {
+    margin-left: 190px;
+    padding: 12px 27px 12px 27px;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
 }
 
