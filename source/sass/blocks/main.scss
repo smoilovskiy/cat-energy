@@ -62,8 +62,61 @@
   .main-container {
     height: 696px;
   }
-
 }
+
+@media (min-width: 768px) {
+
+  .main-container {
+    height: 850px;
+  }
+  
+  .first-screen {
+    position: relative;
+  }
+
+  .first-screen-img-container {
+    position: absolute;
+    top: 255px;
+    left: 50px;
+    z-index: -1;
+
+  }
+
+  .cat-energy-pro-img {
+    padding: auto;
+    width: 709px;    
+    height: 609px;
+  }
+
+  .title-big {
+    margin: 0;
+    padding: 54px 0 0 117px;
+    line-height: 60px;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  .slogan {
+    margin: 0;
+    padding: 35px 0 56px 118px;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .choose-a-program {
+    padding: 12px 30px 12px 25px;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 120px;
+  }
+}
+
 @media (min-width: 1440px) {
   body {
     position: relative;
