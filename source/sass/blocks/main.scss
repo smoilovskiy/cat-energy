@@ -27,7 +27,7 @@
 
   .slogan {
     text-align: center;
-    margin-bottom: 400px;
+    margin-bottom: 298px;
     padding: 0;
     color: #ffffff;
     font-family: Oswald;
@@ -36,18 +36,20 @@
   }
 
   .choose-a-program {
-    padding: 12px 26% 12px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
     color: #ffffff;
     font-family: Oswald;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
   }
 
   .first-screen-img-container {
     position: absolute;
     top: 46%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
   }
 
