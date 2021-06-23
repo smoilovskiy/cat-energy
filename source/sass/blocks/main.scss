@@ -86,10 +86,13 @@
 
   .slimming__img {
     padding: 5px 27px 0 2px;
+    width: 35px;
+    height: 49px;
     z-index: 1;
   }
 
-  .category-name::after {
+  .slimming::after,
+  .weight-gain::after {
     position: absolute;
     top: 25px;
     left: 25px;
@@ -97,7 +100,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background-color: #68b738;;
+    background-color: #68b738;
   }
 
   .slimming__title {
@@ -143,6 +146,7 @@
     position: absolute;
     top: 35px;
     left: 15px;
+    width: 67px;
     padding-right: 20px;
     z-index: 1;
   } 
@@ -162,11 +166,95 @@
 @media (min-width: 768px) {
 
   .main-container {
-    height: 850px;
+    height: 100%;
   }
-  
+
+  .categories {
+    margin: 540px 30px 20px 30px;
+  }
+
   .first-screen {
     position: relative;
+  }
+
+  .category {
+    position: relative;
+    background-color: #f2f2f2;
+  }
+
+  .slimming,
+  .weight-gain {
+    margin: -2px 30px 0 30px;
+  }
+
+  .slimming__img {
+    position: absolute;
+    top: 82px;
+    right: 74px;
+    z-index: 1;
+  }
+
+  .slimming__title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 70px 0 0 23px;
+  }
+
+
+  .weight-gain__img {
+    position: absolute;
+    top: 135px;
+    right: 10px;
+    z-index: 1;
+  } 
+
+  .weight-gain__title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 70px 0 0 23px;
+  }
+
+  .slimming::after,
+  .weight-gain::after {
+    position: absolute;
+    top: 95px;
+    right: 45px;
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #68b738;
+  }
+
+  .category-description {
+    margin-top: -20px;
+    color: #444444;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 295px 0px 53px;
+  }
+
+  .link-container {
+    margin: 50px 0 0 53px;
+    padding-bottom: 53px;
+  }
+
+  .category-link {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .arrow-img {
+    padding-left: 23px;
+    width: 24px;
   }
 
   .first-screen-img-container {
@@ -174,7 +262,6 @@
     top: 255px;
     left: 50px;
     z-index: -1;
-
   }
 
   .cat-energy-pro-img {
