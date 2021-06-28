@@ -234,6 +234,140 @@
     padding-top: 15px;
   }
 
+  .weight-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+
+  .weight-back-left,
+  .weight-back-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 124px;
+    height: 56px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+  }
+
+  .weight-back-right {
+    margin-left: 30px;
+  }
+
+  .weight-back-left::after {
+    position: absolute;
+    content: 'снижение веса';
+    color: #444444;
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: 400;
+    border: 5px solid #f2f2f2;
+    background-color: #f2f2f2;
+    width: 70px;
+    top: 40px;
+    left: 20px;
+    text-align: center;
+  }
+
+  .weight-back-right::after {
+    position: absolute;
+    content: 'затрачено времени';
+    color: #444444;
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: 400;
+    border: 5px solid #f2f2f2;
+    background-color: #f2f2f2;
+    width: 70px;
+    top: 40px;
+    left: 20px;
+    text-align: center;
+  }
+
+  .weight-back__text {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .food-costs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 19px;
+  }
+
+  .food-costs__text {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .live-example-image-container {
+    position: relative;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .live-example-image-container::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/before-mobile.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 311px;
+    height: 232px;
+    top: 28px;
+  }
+
+  .was-and-is {
+    margin-left: auto;
+    margin-right: auto;
+    width: 198px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3px;
+    padding-top: 42px;
+  }
+
+  .was,
+  .is {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 42px;
+    padding: 0;
+  }
+
+  .switch {
+    position: relative;
+    width: 82px;
+    height: 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 7px;
+    background-color: #fff;
+  }
+
+  .switch::after {
+    position: absolute;
+    content: '';
+    border-radius: 3px;
+    width: 34px;
+    height: 6px;
+    top: 3px;
+    left: 6px;
+    background-color: #68b738;
+  }
+
 }
 
 @media (min-width: 768px) {
