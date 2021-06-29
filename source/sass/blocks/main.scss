@@ -250,7 +250,7 @@
     justify-content: center;
     width: 124px;
     height: 56px;
-    border: 1px solid #E0E0E0;
+    border: 1px solid #cdcdcd;
     border-radius: 3px;
   }
 
@@ -335,8 +335,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 3px;
-    padding-top: 42px;
+    padding: 42px 0 6px 3px;
   }
 
   .was,
@@ -356,6 +355,7 @@
     border: 1px solid #E0E0E0;
     border-radius: 7px;
     background-color: #fff;
+
   }
 
   .switch::after {
@@ -367,6 +367,30 @@
     top: 3px;
     left: 6px;
     background-color: #68b738;
+  }
+
+  .welcome-dealers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 25px 10px;
+  }
+
+  .welcome-dealers__title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .welcome-dealers__address {
+    color: #444444;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+    line-height: 20px;
   }
 
 }
@@ -512,7 +536,7 @@
     font-size: 60px;
     font-weight: 400;
     margin: 0;
-    padding: 18px 0 57px 110px;
+    padding: 18px 0 57px 30px;
   }
   
   .advantages {
@@ -520,7 +544,7 @@
     display: flex;
     // justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: -27px;
+    margin-left: -107px;
   }
 
   .advantage-1,
@@ -533,7 +557,7 @@
     height: 230px;
     margin-right: 0px;
     padding-left: 137px;
-    padding-bottom: 88px;
+    padding-bottom: 86px;
   }
 
   .advantage-1::after {
@@ -602,6 +626,225 @@
     line-height: 24px;
     padding: 15px 0 0 0;
   }
+
+  .live-example {
+    // background-color: #f2f2f2;
+    margin-left: -68px;
+    // margin-right: 50px;
+    margin-top: 0;
+  }
+
+  .live-example-title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 100px;
+  }
+
+  .live-example-description {
+    color: #444444;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 32px;
+    margin-left: 100px;
+  }
+
+  .weight-back {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+  }
+
+  .weight-back-left,
+  .weight-back-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    height: 72px;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+  }
+
+  .weight-back-right {
+    margin-left: -100px;
+  }
+
+  .weight-back-left::after {
+    position: absolute;
+    content: 'снижение веса';
+    color: #444444;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    border: 5px solid #fff;
+    background-color: #fff;
+    width: 100px;
+    top: 58px;
+    left: 25px;
+    text-align: center;
+  }
+
+  .weight-back-right::after {
+    position: absolute;
+    content: 'затрачено времени';
+    color: #444444;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    border: 5px solid #fff;
+    background-color: #fff;
+    width: 130px;
+    top: 58px;
+    left: 10px;
+    text-align: center;
+  }
+
+  .weight-back__text {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .food-costs {
+    display: block;
+    text-align: right;
+    padding-top: 5px;
+    margin-left: 30px;
+  }
+
+  .food-costs__text {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+    padding-right: 13px;
+  }
+
+  .live-example-image-container {
+    position: relative;
+    height: 462px;
+    background: linear-gradient(to right, #f2f2f2 50%, #eaeaea 50%);
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    border-left: 88px solid #f2f2f2;
+  }
+
+  .live-example-image-container::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/before-desktop.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 677px;
+    height: 499px;
+    top: -150px;
+
+  }
+
+  .live-example-image-container::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/after-desktop.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 545px;
+    height: 517px;
+    top: -168px;
+    margin-left: 49px;
+  }
+
+  .was-and-is {
+    margin-left: auto;
+    margin-right: auto;
+    width: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 6px 85px;
+    margin-top: -120px;
+  }
+
+  .was,
+  .is {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 42px;
+    padding: 0;
+    z-index: 1;
+  }
+
+  .switch {
+    position: relative;
+    width: 428px;
+    height: 6px;
+    background-color: #cdcdcd;
+    border-radius: 3px;
+  }
+
+  .switch::before {
+    position: absolute;
+    content: '';
+    border-radius: 34px;
+    border: 2px solid #cdcdcd;
+    width: 34px;
+    height: 34px;
+    top: -16px;
+    left: 198px;
+    background-color: #fff;
+  }
+
+  .switch::after {
+    position: absolute;
+    content: '';
+    border-radius: 9px;
+    width: 9px;
+    height: 9px;
+    top: -1px;
+    left: 213px;
+    background-color: #68b738;
+  }
+
+  .welcome-dealers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px 20px 58px 72px;
+  }
+
+  .welcome-dealers__title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 200px;
+  }
+
+  .welcome-dealers__address {
+    color: #444444;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 35px;
+    line-height: 26px;
+    width: 160px;
+    text-align: right;
+  }
+
 }
 
 @media (min-width: 1440px) {
