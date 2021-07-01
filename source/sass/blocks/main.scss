@@ -1322,12 +1322,39 @@
     background-color: #68b738;
   }
 
-  .welcome-dealers {
+  
 
+  .map {
+    position: relative;
+    height: 400px;
+    background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-position: 24% 56%;
+    z-index: -1;
+  }
+
+  .map::after {
+    position: absolute;
+    content: '';
+    top: 150px;
+    right: 318px;
+    width: 113px;
+    height: 106px;
+    background-image: url('../img/map-marker.png');
+
+  }
+
+  .welcome-dealers {
+    position: absolute;
+    background-color: #fff;
+    width: 490px;
+    height: 180px;
+    top: 95px;
+    left: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 92px 20px 58px 74px;
+    padding: 13px 0px 10px 76px;
   }
 
   .welcome-dealers__title {
@@ -1336,7 +1363,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
-    width: 150px;
+    // width: 150px;
     
   }
 
@@ -1345,10 +1372,10 @@
     font-family: "Arial";
     font-size: 16px;
     font-weight: 400;
-    padding-right: 35px;
+    padding-right: 80px;
     line-height: 20px;
-    width: 160px;
-    text-align: right;
+    // width: 160px;
+    text-align: left;
     padding-top: 16px;
   }
 
