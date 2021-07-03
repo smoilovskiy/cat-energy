@@ -376,9 +376,9 @@
     top: -88px;
     left: 0px;
     display: flex;
+    justify-content: space-between;
+    // width: 100%;
     align-items: center;
-    padding: 0 0 58px 10px;
-    width: 100%;
   }
 
   .welcome-dealers__title {
@@ -387,22 +387,21 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    width: 150px;
-    
+    // width: 150px;
+    // padding-left: 15px;
   }
 
   .welcome-dealers__address {
-    position: absolute;
     color: #444444;
     font-family: "Arial";
     font-size: 14px;
     font-weight: 400;
-    padding-right: 35px;
+    // padding-right: 15px;
     line-height: 14px;
-    width: 160px;
+    // width: 160px;
     text-align: left;
     padding-top: 16px;
-    right: -32px;
+    right: 0px;
   }
 
   .welcome-dealers__address-city {
@@ -855,11 +854,10 @@
 
   .welcome-dealers {
     position: absolute;
-    top: -135px;
-    left: 0px;
-    display: flex;
+    top: -155px;
     align-items: center;
-    padding: 0 0 58px 74px;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
   }
 
@@ -870,21 +868,20 @@
     font-weight: 400;
     line-height: 25px;
     width: 150px;
-    
-  }
+    padding-left: 80px;
+   }
 
   .welcome-dealers__address {
-    position: absolute;
+
     color: #444444;
     font-family: "Arial";
     font-size: 16px;
     font-weight: 400;
-    padding-right: 35px;
+    padding-right: 60px;
     line-height: 20px;
     width: 160px;
     text-align: right;
     padding-top: 16px;
-    right: 92px;
   }
 
   .welcome-dealers__address-city {
@@ -1168,7 +1165,7 @@
   .live-example {
     margin: 0;
     display: flex;
-    justify-content: space-between;
+  
     background: linear-gradient(to bottom, #fff 32%, #f2f2f2 32%, #f2f2f2 70%);
     height: 676px;
   }
@@ -1282,7 +1279,7 @@
   .live-example-part2 {
     margin-top: -34px;
     margin-left: 150px;
-    padding-right: 150px;
+    padding-right: 110px;
   }
 
   .live-example-image-container {
@@ -1424,7 +1421,7 @@
     font-weight: 400;
     padding-right: 0px;
     line-height: 20px;
-    // width: 160px;
+    width: 160px;
     text-align: left;
     padding-top: 16px;
   }
