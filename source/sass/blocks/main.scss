@@ -373,11 +373,11 @@
 
   .welcome-dealers {
     position: absolute;
-    top: -88px;
+    top: -100px;
     left: 0px;
     display: flex;
     justify-content: space-between;
-    // width: 100%;
+    width: 100%;
     align-items: center;
   }
 
@@ -387,8 +387,8 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    // width: 150px;
-    // padding-left: 15px;
+    width: 150px;
+    padding-left: 10px;
   }
 
   .welcome-dealers__address {
@@ -398,7 +398,7 @@
     font-weight: 400;
     // padding-right: 15px;
     line-height: 14px;
-    // width: 160px;
+    width: 160px;
     text-align: left;
     padding-top: 16px;
     right: 0px;
@@ -1401,7 +1401,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px 0px 10px 76px;
+    padding: 13px 0px 10px 0px;
   }
 
   .welcome-dealers__title {
@@ -1410,6 +1410,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
+    padding-left: 75px;
     // width: 150px;
     
   }
@@ -1419,7 +1420,7 @@
     font-family: "Arial";
     font-size: 16px;
     font-weight: 400;
-    padding-right: 0px;
+    padding-right: 5px;
     line-height: 20px;
     width: 160px;
     text-align: left;
