@@ -23,3 +23,15 @@ a {
 .green-bttn:active {
   color: rgba(255, 255, 255, 0.3);
 }
+
+.grey-bttn {
+  background-color: #f2f2f2
+}
+
+.grey-bttn:hover {
+  background-color: #d8d8d8;
+}
+
+.grey-bttn:active {
+  color: rgba(0, 0, 0, 0.3);
+}
