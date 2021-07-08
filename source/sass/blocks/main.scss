@@ -451,7 +451,7 @@
   .product {
     margin: 0;
     display: block;
-    height: 208px;
+    height: 201px;
     border-top: 1px solid #E8E8E8;
   }
 
@@ -521,6 +521,7 @@
     display: block;
     height: 208px;
     border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
     text-align: center; 
   }
 
@@ -606,7 +607,98 @@
   }
 
   .extra-products-container {
-    margin-top: 50px;
+    margin-top: 41px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: block;
+  }
+
+
+  .extra-products-data {
+    width: 100%;
+
+  }
+
+  .extra-products-gift {
+    width: 280px;
+    height: 289px;
+    background-image: url('../img/gift-photo-mobile.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 40px auto 0 auto;
+
+  }
+
+  .gift-img {
+    padding-top: 65px;
+
+  }
+
+  .gift-text {
+    padding-top: 42px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .extra-product {
+    display: block;
+    height: 127px;
+    align-items: center;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+
+  }
+
+  .extra-product-record {
+    display: block;
+    align-items: center;
+  }
+
+  .extra-product__name {
+    color: #222222;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+
+  .extra-product-unit-cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 11px;
+  }
+
+  .extra-product__unit {
+    color: #444444;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    // width: 244px;
+    padding-top: 7px;
+  }
+
+  .extra-product__cost {
+    color: #444444;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 7px;
+    // width: 72px;
+  }
+
+  .extra-product__order {
+    display: flex;
+    justify-content: center;
+    padding: 9px 8px;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
 
   }
 
@@ -1035,7 +1127,7 @@
 
   .welcome-dealers {
     position: absolute;
-    top: -155px;
+    top: 50px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -1071,19 +1163,28 @@
 
   .map {
     position: relative;
-    height: 400px;
+    height: 601px;
     background-image: url('../img/map-large.png');
     background-repeat: no-repeat;
-    background-position: 60% 58%;
+    background-position: 60% 42%;
     z-index: -1;
-    margin-top: 245px;
+    margin-top: 75px;
+  }
+
+  .map::before {
+    position: absolute;
+    content: '';
+    height: 201px;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: -1;
   }
 
   .map::after {
     position: absolute;
     content: '';
-    top: 150px;
-    right: 35px;
+    top: 350px;
+    right: 55px;
     width: 113px;
     height: 106px;
     background-image: url('../img/map-marker.png');
@@ -1280,7 +1381,6 @@
 
   .extra-products-container {
     margin-top: 113px;
-
   }
 
   .extra-products-data {
@@ -1289,6 +1389,7 @@
   }
 
   .extra-products-gift {
+    position: relative;
     margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
@@ -1299,11 +1400,14 @@
   }
 
   .gift-img {
-    padding-top: 55px;
+    padding-top: 65px;
+    padding-left: 100px;
   }
 
   .gift-text {
-    padding-top: 42px;
+    position: absolute;
+    top: 58px;
+    left: 432px;
     color: #ffffff;
     font-family: "Arial";
     font-size: 16px;
@@ -1334,12 +1438,16 @@
     width: 372px;
   }
 
+  .extra-product-unit-cost {
+    display: flex;
+  }
+
   .extra-product__unit {
     color: #444444;
     font-family: "Arial";
     font-size: 16px;
     font-weight: 400;
-     width: 140px;
+    width: 140px;
     padding-top: 7px;
     text-align: right;
   }
@@ -1350,7 +1458,7 @@
     font-size: 16px;
     font-weight: 400;
     padding-top: 7px;
-    width: 72px;
+    width: 95px;
     text-align: right;
   }
 
@@ -1362,7 +1470,6 @@
     font-family: Oswald;
     font-size: 16px;
     font-weight: 400;
-    // margin: 0 9px 0 9px;
   }
 
 
@@ -1832,7 +1939,7 @@
     background-image: url('../img/map.png');
     background-repeat: no-repeat;
     background-position: 24% 56%;
-    z-index: -1;
+    // z-index: -1;
     margin-top: 0;
   }
 
@@ -2075,23 +2182,28 @@
   .extra-products-data {
     width: 895px;
     height: 289px;
+    margin: 0;
   }
 
   .extra-products-gift {
+    position: relative;
     width: 245px;
     height: 289px;
     background-image: url('../img/gift-photo-desktop.jpg');
     background-repeat: no-repeat;
-    text-align: center;
     margin: 0;
+    text-align: center;
   }
 
   .gift-img {
     padding-top: 65px;
+    padding-left: 0;
   }
 
   .gift-text {
-    padding-top: 42px;
+    position: absolute;
+    top: 170px;
+    left: 40px;
     color: #ffffff;
     font-family: "Arial";
     font-size: 16px;
@@ -2110,6 +2222,7 @@
   .extra-product-record {
     display: flex;
     align-items: center;
+    margin: 0;
   }
 
   .extra-product__name {
@@ -2117,7 +2230,12 @@
     font-family: Oswald;
     font-size: 20px;
     font-weight: 400;
-    width: 323px;
+    width: 212px;
+    text-align: left;
+  }
+
+  .extra-product-unit-cost {
+    display: flex;
   }
 
   .extra-product__unit {
@@ -2125,7 +2243,7 @@
     font-family: "Arial";
     font-size: 16px;
     font-weight: 400;
-    width: 244px;
+    width: 284px;
     padding-top: 7px;
   }
 
@@ -2135,7 +2253,8 @@
     font-size: 16px;
     font-weight: 400;
     padding-top: 7px;
-    width: 72px;
+    padding-right: 50px;
+
   }
 
   .extra-product__order {
