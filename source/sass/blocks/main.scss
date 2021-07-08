@@ -607,6 +607,7 @@
 
   .extra-products-container {
     margin-top: 50px;
+
   }
 
 }
@@ -1960,6 +1961,7 @@
     position: relative;
     border-top: 3px solid #68b738;
     margin-top: 42px;
+    margin-bottom: 87px;
   }
 
   .extra-products-title {
@@ -1978,7 +1980,89 @@
   }
 
   .extra-products-container {
-    margin-top: 50px;
+    margin-left: 112px;
+    margin-top: 91px;
+    width: 1220px;
+    height: 289px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .extra-products-data {
+    width: 895px;
+    height: 289px;
+  }
+
+  .extra-products-gift {
+    width: 245px;
+    height: 289px;
+    background-image: url('../img/gift-photo-desktop.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+  }
+
+  .gift-img {
+    padding-top: 65px;
+  }
+
+  .gift-text {
+    padding-top: 42px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .extra-product {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .extra-product-record {
+    display: flex;
+    align-items: center;
+  }
+
+  .extra-product__name {
+    color: #222222;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    width: 323px;
+  }
+
+  .extra-product__unit {
+    color: #444444;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    width: 244px;
+    padding-top: 7px;
+  }
+
+  .extra-product__cost {
+    color: #444444;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 7px;
+    width: 72px;
+  }
+
+  .extra-product__order {
+    display: flex;
+    justify-content: center;
+    padding: 9px 92px;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 9px 0 9px;
   }
 
 }
