@@ -744,6 +744,33 @@
 
   }
 
+  .owner-data,
+  .comment,
+  .extra-order {
+    position: relative;
+    border-top: 3px solid #68b738;
+    margin-top: 45px;
+  }
+
+  .owner-data-title,
+  .comment-title,
+  .extra-order-title {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding-left: 9px;
+    padding-right: 23px;
+    margin: 0;
+  }
+
+
+
 }
 
 @media (min-width: 768px) {
@@ -1533,6 +1560,31 @@
     font-family: Oswald;
     font-size: 16px;
     font-weight: 400;
+  }
+
+  .owner-data,
+  .comment,
+  .extra-order {
+    position: relative;
+    border-top: 3px solid #68b738;
+    margin-top: 38px;
+  }
+
+  .owner-data-title,
+  .comment-title,
+  .extra-order-title {
+    position: absolute;
+    top: -35px;
+    left: 28px;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin: 0;
   }
 
 
@@ -2360,6 +2412,32 @@
     font-size: 16px;
     font-weight: 400;
     margin: 0 9px 0 9px;
+  }
+
+  .owner-data,
+  .comment,
+  .extra-order {
+    position: relative;
+    border-top: 3px solid #68b738;
+    margin-top: 42px;
+    margin-bottom: 87px;
+  }
+
+  .owner-data-title,
+  .comment-title,
+  .extra-order-title {
+    position: absolute;
+    top: -35px;
+    left: 70px;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin: 0;
   }
 
 }
