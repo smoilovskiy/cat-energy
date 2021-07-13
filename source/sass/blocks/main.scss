@@ -744,19 +744,107 @@
 
   }
 
-  .owner-data,
-  .comment,
+  .selection-form-container {
+    border-top: 1px solid #E8E8E8;
+  }
+
+  .owner-data {
+    position: relative;
+    border-top: 3px solid #68b738;
+    margin-top: 43px;
+  }
+  .comment {
+    position: relative;
+    border-top: 3px solid #68b738;
+    margin-top: 48px;
+  }
+
   .extra-order {
     position: relative;
     border-top: 3px solid #68b738;
-    margin-top: 45px;
+    margin-top: 38px;
   }
 
-  .owner-data-title,
-  .comment-title,
-  .extra-order-title {
+  .extra-order-container {
+    margin-top: 42px;
+    margin-bottom: 24px;
+    margin-left: 10px;
+
+  }
+
+  .extra-order-controls {
+    margin-bottom: 3px;
+  }
+  
+  // .filter-color {
+  //   margin-top: 0px;
+  //   color: #000;
+  //   font-family: "Gilroy - Extra Bold";
+  //   font-size: 18px;
+  //   font-weight: 400;
+  //   font-style: normal;
+  //   letter-spacing: normal;
+  //   line-height: 8px;
+  //   margin-bottom: 32px;
+  // }
+  
+  .extra-order__label {
+    display: inline-block;
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding-left: 47px;
+    line-height: 25px;
+  
+    color: #222222;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .extra-order__input {
+    margin-left: -8px;
+    width: 1px;
+    height: 1px;
+  }
+  
+  .extra-order__label::before {
     position: absolute;
-    top: -24px;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 28px;
+    height: 28px;
+    border: 1px solid #cdcdcd;
+  }
+  
+  .extra-order__input:checked + .extra-order__label::after {
+    position: absolute;
+    content: "Г";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    color: #68b738;
+    left: 9px;
+    top: -2px;
+    transform: rotate(-135deg);
+    // text-shadow: 2px 2px #EEE, -2px -2px #EEE;
+  }
+  
+  .extra-order__label:hover {
+    opacity: 0.6;
+  }
+  
+  .extra-order__label:active {
+    opacity: 1;
+  }
+
+
+
+  .owner-data-title {
+    position: absolute;
+    top: -18px;
     left: 0;
     color: #111111;
     font-family: Oswald;
@@ -765,10 +853,193 @@
     background-color: #fff;
     border: 1px solid #fff;
     padding-left: 9px;
-    padding-right: 23px;
+    padding-right: 15px;
     margin: 0;
+    line-height: 24px;
+    width: 185px;
   }
 
+  .owner-data-container {
+    margin-top: 65px;
+
+  }
+
+  .owner-data-item {
+    margin-left: 10px;
+    margin-bottom: 14px;
+  }
+
+  .owner-data__label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #222222;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .owner-data__input {
+    height: 38px;
+  }
+
+
+
+  .comment-title,
+  .extra-order-title {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding-left: 9px;
+    padding-right: 20px;
+    margin: 0;
+    line-height: 24px;
+  }
+
+  .comment {
+    margin-top: 43px;
+  }
+
+  .comment__textarea {
+    width: 260px;
+    height: 135px;
+    border: 2px solid #D7DCDE;
+    padding-top: 9px;
+    padding-left: 14px;
+    color: #444444;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 42px;
+    margin-left: 10px;
+  }
+
+  .selection-form-title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 28px;
+    margin-left: 10px;
+  }
+
+  .selection-form-text {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    line-height: 18px;
+  }
+
+  .selection {
+
+    margin-top: 40px;
+  }
+
+  .cat-data {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-end;
+    margin-bottom: 23px;
+    margin-left: 10px;
+  }
+
+  .cat-data-item {
+    margin-bottom: 15px;
+  }
+
+  .cat-data__label {
+    display: inline-block;
+    vertical-align: middle;
+    color: #222222;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 12px;
+  }
+
+  .cat-data__input {
+    // display: inline-block;
+    // vertical-align: middle;
+    // width: 100%;
+    height: 38px;
+  }
+
+  .program-selection {
+    padding-top: 18px;
+    padding-bottom: 10px;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+  }
+
+  .program-selection-controls {
+    padding-top: 4px;
+    // padding-bottom: 2px;
+    margin-left: 10px;
+  }
+
+  .program-selection__label {
+    display: inline-block;
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 12px;
+    cursor: pointer;
+    padding-left: 46px;
+    line-height: 25px;
+  
+    color: #222222;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .program-selection__input {
+    margin-left: -8px;
+    width: 1px;
+    height: 1px;
+  }
+  
+  .program-selection__label::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 28px;
+    height: 28px;
+    border-radius: 30px;
+    border: 1px solid #cdcdcd;
+  }
+  
+  .program-selection__input:checked + .program-selection__label::after {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    content: "";
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #68b738;
+    border: 1px solid #68b738;
+  }
+  
+  .program-selection__label:hover {
+    opacity: 0.6;
+  }
+  
+  .program-selection__label:active {
+    opacity: 1;
+  }
+  
+  .program-selection-controls {
+    margin-bottom: 2px;
+  }
 
 
 }
@@ -1585,6 +1856,23 @@
     padding-left: 38px;
     padding-right: 38px;
     margin: 0;
+  }
+
+  .selection-form-title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+
+  .selection-form-text {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
   }
 
 
@@ -2438,6 +2726,23 @@
     padding-left: 38px;
     padding-right: 38px;
     margin: 0;
+  }
+
+  .selection-form-title {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+
+  .selection-form-text {
+    color: #111111;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
   }
 
 }
