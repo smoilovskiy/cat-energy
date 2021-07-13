@@ -1027,8 +1027,13 @@
     margin-top: 43px;
   }
 
+  .comment-container {
+    display: flex;
+    margin-right: 12px;
+  }
+
   .comment__textarea {
-    width: 260px;
+    flex: 1;
     height: 135px;
     border: 1px solid #cdcdcd;
     padding-top: 9px;
