@@ -952,7 +952,10 @@
     display: block;
   }
 
-  .extra-order-controls {
+  .extra-order-controls1,
+  .extra-order-controls2,
+  .extra-order-controls3,
+  .extra-order-controls4 {
     margin-bottom: 2px;
   }
   
@@ -2070,22 +2073,31 @@
     margin-top: 85px;
   }
 
-  .extra-order-controls {
-    padding-right: 100px;
+  .extra-order-controls1 {
+    margin-left: 19px;
+  }
+
+  .extra-order-controls2 {
+    margin-left: 124px;
+  }
+
+  .extra-order-controls3 {
+    margin-left: 19px;
+  }
+  .extra-order-controls4 {
+    margin-left: 218px;
   }
 
   .extra-order-container {
     margin-top: 70px;
     margin-bottom: 20px;
-    margin-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
+    width: 650px;
   }
 
-  .extra-order-controls {
-    margin-bottom: 2px;
-  }
-  
   .extra-order__label {
     display: inline-block;
     position: relative;
@@ -2141,9 +2153,10 @@
   .bottom-container {
     display: flex;
     margin-top: 22px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
     height: 52px;
+    width: 650px;
   }
 
   .place-order {
@@ -2152,7 +2165,7 @@
     font-family: Oswald;
     font-size: 20px;
     font-weight: 400;
-    margin-left: 0px;
+    margin-left: 18px;
   }
 
   .required-fields {
@@ -2162,7 +2175,7 @@
     font-size: 16px;
     font-weight: 400;
     margin-top: 15px;
-    
+    margin-left: 62px;
   }
 
 
@@ -3238,20 +3251,27 @@
     margin: 0;
   }
 
-  .extra-order-controls {
-  }
-
   .extra-order-container {
     margin-top: 68px;
     margin-bottom: 28px;
     margin-left: 110px;
     display: flex;
-    justify-content: space-between;
-    width: 1220px;
+    width: 1123px;
   }
 
-  .extra-order-controls {
-    margin-bottom: 2px;
+  .extra-order-controls1 {
+    margin-left: 0;
+  }
+
+  .extra-order-controls2 {
+    margin-left: 27px;
+  }
+
+  .extra-order-controls3 {
+    margin-left: 60px;
+  }
+  .extra-order-controls4 {
+    margin-left: 120px;
   }
   
   .extra-order__label {
@@ -3310,6 +3330,7 @@
     display: flex;
     margin: 22px 70px 82px 70px;
     height: 52px;
+    width: 1220px;
   }
 
   .place-order {
