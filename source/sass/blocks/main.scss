@@ -902,7 +902,7 @@
 
   .owner-data-item {
     margin-left: 10px;
-    margin-right: 12px;
+    margin-right: 25px;
     margin-bottom: 17px;
     display: flex;
     justify-content: flex-end;
@@ -929,6 +929,21 @@
     border: 1px solid #cdcdcd;
     opacity: 0.5;
   }
+
+  .owner-data__input + .e-mail-icon {
+    margin-top: 5px;
+    margin-left: -30px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .owner-data__input + .phone-icon {
+    margin-top: 5px;
+    margin-left: -30px;
+    width: 20px;
+    height: 20px;
+  }
+
 
   .owner-data__input:hover {
     opacity: 1;
@@ -2061,6 +2076,20 @@
     font-weight: 400;
     border: 1px solid #cdcdcd;
     opacity: 0.5;
+  }
+
+  .owner-data__input + .e-mail-icon {
+    margin-top: 5px;
+    margin-left: -30px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .owner-data__input + .phone-icon {
+    margin-top: 5px;
+    margin-left: -30px;
+    width: 20px;
+    height: 20px;
   }
 
   .owner-data__input:hover {
@@ -3226,6 +3255,20 @@
     font-weight: 400;
     border: 1px solid #cdcdcd;
     opacity: 0.5;
+  }
+
+  .owner-data__input + .e-mail-icon {
+    margin-top: 5px;
+    margin-left: -30px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .owner-data__input + .phone-icon {
+    margin-top: 5px;
+    margin-left: -30px;
+    width: 20px;
+    height: 20px;
   }
 
   .owner-data__input:hover {
