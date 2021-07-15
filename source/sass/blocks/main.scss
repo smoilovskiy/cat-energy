@@ -947,10 +947,15 @@
   }
 
   .extra-order-container {
+
     margin-top: 44px;
     margin-bottom: 20px;
     margin-left: 10px;
-    display: block;
+    margin-right: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .extra-order-controls1,
@@ -1051,6 +1056,7 @@
     margin-top: 42px;
     margin-left: 10px;
     opacity: 0.5;
+    resize: none;
   }
 
   .comment__textarea:hover {
@@ -2084,6 +2090,7 @@
     font-weight: 400;
     margin-top: 42px;
     opacity: 0.5;
+    resize: none;
   }
 
   .comment__textarea:hover {
@@ -3264,6 +3271,7 @@
     font-weight: 400;
     margin-top: 42px;
     opacity: 0.5;
+    resize: none;
   }
 
   .comment__textarea:hover {
