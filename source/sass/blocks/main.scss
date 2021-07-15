@@ -931,22 +931,29 @@
   }
 
   .owner-data__input + .e-mail-icon {
-    margin-top: 5px;
-    margin-left: -30px;
-    width: 20px;
-    height: 20px;
+    margin-left: -32px;
+    padding-right: 4px;
+    width: 17px;
+    height: 13px;
   }
 
   .owner-data__input + .phone-icon {
-    margin-top: 5px;
-    margin-left: -30px;
+    margin-top: 4px;
+    margin-left: -32px;
     width: 20px;
     height: 20px;
   }
 
-
   .owner-data__input:hover {
     opacity: 1;
+  }
+
+  .owner-data__input:active + .e-mail-icon #email {
+    fill: #68b738;
+  }
+
+  .owner-data__input:active + .phone-icon #phone {
+    fill: #68b738;
   }
 
   .comment {
@@ -2079,21 +2086,31 @@
   }
 
   .owner-data__input + .e-mail-icon {
-    margin-top: 5px;
-    margin-left: -30px;
-    width: 20px;
-    height: 20px;
+    margin-top: 2px;
+    margin-left: -38px;
+    padding-right: 20px;
+    width: 17px;
+    height: 13px;
   }
 
   .owner-data__input + .phone-icon {
     margin-top: 5px;
-    margin-left: -30px;
+    margin-left: -38px;
+    padding-right: 17px;
     width: 20px;
     height: 20px;
   }
 
   .owner-data__input:hover {
     opacity: 1;
+  }
+
+  .owner-data__input:active + .e-mail-icon #email {
+    fill: #68b738;
+  }
+
+  .owner-data__input:active + .phone-icon #phone {
+    fill: #68b738;
   }
 
   .comment {
@@ -3233,12 +3250,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 570px;
+    width: 572px;
   }
 
   .owner-data__label {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 20px;
     color: #222222;
     font-family: Oswald;
     font-size: 20px;
@@ -3247,7 +3264,7 @@
 
   .owner-data__input {
     flex: 1;
-    padding-left: 22px;
+    padding-left: 19px;
     height: 46px;
     color: #444444;
     font-family: Oswald;
@@ -3258,22 +3275,32 @@
   }
 
   .owner-data__input + .e-mail-icon {
-    margin-top: 5px;
-    margin-left: -30px;
-    width: 20px;
-    height: 20px;
+    margin-top: 2px;
+    margin-left: -38px;
+    padding-right: 22px;
+    width: 17px;
+    height: 13px;
   }
 
   .owner-data__input + .phone-icon {
     margin-top: 5px;
-    margin-left: -30px;
+    margin-left: -40px;
+    padding-right: 20px;
     width: 20px;
     height: 20px;
   }
 
   .owner-data__input:hover {
     opacity: 1;
-  } 
+  }
+
+  .owner-data__input:active + .e-mail-icon #email {
+    fill: #68b738;
+  }
+
+  .owner-data__input:active + .phone-icon #phone {
+    fill: #68b738;
+  }
 
   .comment {
     margin-top: 68px;
