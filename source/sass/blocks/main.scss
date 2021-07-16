@@ -980,10 +980,7 @@
     justify-content: space-between;
   }
 
-  .extra-order-controls1,
-  .extra-order-controls2,
-  .extra-order-controls3,
-  .extra-order-controls4 {
+  .extra-order-controls {
     margin-bottom: 2px;
   }
   
@@ -2149,29 +2146,17 @@
     margin-top: 85px;
   }
 
-  .extra-order-controls1 {
-    margin-left: 19px;
-  }
-
-  .extra-order-controls2 {
-    margin-left: 124px;
-  }
-
-  .extra-order-controls3 {
-    margin-left: 19px;
-  }
-  .extra-order-controls4 {
-    margin-left: 218px;
-  }
 
   .extra-order-container {
     margin-top: 70px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 70px;
+    margin-right: 160px;
     display: flex;
     flex-wrap: wrap;
-    width: 650px;
+    flex-direction: row;
+    justify-content: space-between;
+    // width: 650px;
   }
 
   .extra-order__label {
@@ -3374,23 +3359,12 @@
     margin-bottom: 30px;
     margin-left: 110px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     width: 1125px;
   }
 
-  .extra-order-controls1 {
-    margin-left: 0;
-  }
-
-  .extra-order-controls2 {
-    margin-left: 107px;
-  }
-
-  .extra-order-controls3 {
-    margin-left: 140px;
-  }
-  .extra-order-controls4 {
-    margin-left: 198px;
-  }
   
   .extra-order__label {
     display: inline-block;
