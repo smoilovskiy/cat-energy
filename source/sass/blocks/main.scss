@@ -980,8 +980,15 @@
     justify-content: space-between;
   }
 
-  .extra-order-controls {
+  .extra-order-controls1,
+  .extra-order-controls2,
+  .extra-order-controls3,
+  .extra-order-controls4 {
     margin-bottom: 2px;
+  }
+
+  .extra-order-controls4 {
+    margin-right: 30px;
   }
   
   .extra-order__label {
@@ -2156,7 +2163,10 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    // width: 650px;
+  }
+
+  .extra-order-controls4 {
+    margin-right: 38px;
   }
 
   .extra-order__label {
@@ -3363,6 +3373,10 @@
     flex-direction: row;
     justify-content: space-between;
     width: 1125px;
+  }
+
+  .extra-order-controls4 {
+    margin-right: 0;
   }
 
   
