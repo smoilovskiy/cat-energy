@@ -1,15 +1,12 @@
-# Gulp template Alexey
-## Краткая инструкция по работе
-### Для начала работы у вас должент быть установлен:
-* Node.js v.10.15.3
-* Gulp v4
-*ставим Галп глобально на компьютер (npm install --global gulp)
-* npm last version
-## Основные команды для работы
-* Установка - `npm i`
-* Запуск локального сервера - `npm start`
-* Сборка проекта без запуска локального сервера - `npm run-script build`
-* Запуск тестирования на соответствия код-гайдам - `npm test`
+# cat-energy
 
-## Все разработка ведёться в директории `source`
-## Итоговый код попадает в директорию `build`
+Made using HTML CSS with BEM methodology.<br>
+Photoshop layout.<br>
+Adaptive mobile-tablet-desktop.<br>
+Preprocessing with SCSS.<br>
+Tools: cmder, Gulp, VS Code, Git, Avocode, Pixel Perfect<br>
+
+Applied Flexboxes, custom radio-buttons, check-boxes created with pseudo-elements<br>
+
+Index page preview https://smoilovskiy.github.io/cat-energy/build/<br>
+Catalog page preview https://smoilovskiy.github.io/cat-energy/build/catalog.html
