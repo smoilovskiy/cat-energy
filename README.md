@@ -9,4 +9,5 @@ Tools: cmder, Gulp, VS Code, Git, Avocode, Pixel Perfect<br>
 Applied Flexboxes, custom radio-buttons, check-boxes created with pseudo-elements<br>
 
 Index page preview https://smoilovskiy.github.io/cat-energy/build/<br>
-Catalog page preview https://smoilovskiy.github.io/cat-energy/build/catalog.html
+Catalog page preview https://smoilovskiy.github.io/cat-energy/build/catalog.html<br>
+Form page preview https://smoilovskiy.github.io/cat-energy/build/form.html
